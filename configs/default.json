@@ -1,0 +1,7 @@
+{
+  "port": 7757,
+  "defaultServer": {
+    "host": "http://127.0.0.1:180",
+    "port": 180
+  }
+}
