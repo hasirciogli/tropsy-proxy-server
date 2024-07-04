@@ -3,9 +3,18 @@
     "dev": "nodemon index.js",
     "prod": "node index.js"
   },
+  "type": "commonjs",
   "dependencies": {
+    "@types/node": "^20.14.9",
+    "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
     "http-proxy": "^1.18.1",
-    "nodemon": "^3.1.0"
+    "https-proxy": "^0.0.2",
+    "nodemon": "^3.1.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/http-proxy": "^1.17.14"
   }
 }
